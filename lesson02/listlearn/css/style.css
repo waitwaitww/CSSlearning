@@ -1,0 +1,50 @@
+#nav{
+    width: 300px;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+}
+
+.title{
+    font-size: 20px;
+    font-weight: bold;
+    text-indent: 1em;
+    line-height: 40px;
+    color: red;
+    background: #fdd561 url("../images/1.jpg") no-repeat 262px 8px;
+
+}
+
+ul{
+
+
+}
+
+/* ul li*/
+/*
+list style:
+    none:无样式
+    circle:空心圆
+    decimal:数字
+    square：正方形
+
+*/
+ul li{
+    height: 30px;
+    list-style: none;
+    text-indent: 1em;
+    background-image: url("../images/2.jpg");
+    background-repeat: no-repeat;
+    background-position: 204px -11px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+a:hover{
+    color: orange;
+    text-decoration: underline;
+
+}

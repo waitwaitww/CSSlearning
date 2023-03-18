@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>超链接伪类</title>
+
+    <style>
+        /*默认颜色*/
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        /*鼠标悬浮颜色*/
+        a:hover{
+            color: cadetblue;
+        }
+    /*    鼠标单击未释放*/
+        a:active{
+            color: blanchedalmond;
+        }
+    /*    无访问*/
+        a:link{
+            color: cadetblue;
+        }
+        /*点击完后*/
+        a:visited{
+            color: azure;
+        }
+        #price{
+            text-shadow:  blanchedalmond 5px 5px 5px;
+        }
+    </style>
+</head>
+<body>
+
+
+<a href="www.baidu.com">
+    <img src="image/bbb.jpg" alt="bbb">
+</a>
+<p>
+    <a href="#">bbb</a>
+</p>
+<p>
+    <a href="#">作者</a>
+</p>
+<p id="price">
+    ￥99
+</p>
+</body>
+</html>

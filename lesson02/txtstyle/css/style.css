@@ -1,0 +1,31 @@
+h1{
+    /*
+    text-align:排版
+    text-indent: 2em;  段落首行缩进
+    */
+    color: cornflowerblue;
+    text-align: center;
+}
+.p1{
+    text-indent: 2em;
+}
+.p2{
+    background: cadetblue;
+    height: 50px;
+}
+.l1{
+    text-decoration: underline;
+}
+.l2{
+    text-decoration: line-through;
+}
+.l3{
+    text-decoration: overline;
+}
+img,span{
+    vertical-align: middle;
+}
+/*a标签去下划线*/
+a{
+    text-decoration: none;
+}

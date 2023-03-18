@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>nature selector</title>
+
+    <style>
+        .demo a{
+            float: left;
+            display: block;
+            height: 50px;
+            width: 50px;
+            border-radius: 10px;
+            background: aqua;
+            text-align: center;
+            color: chartreuse;
+            text-decoration: none;
+            margin-right: 5px;
+            font: bold 20px/50px Arial;
+        }
+
+        /*    存在ID属性的元素
+                a[]{}
+        */
+        a[id]{
+            background: chocolate;
+        }
+        /*id = first的元素*/
+        a[id = first]{
+            background: #fdd561;
+        }
+
+        /*class中含有links的元素 */
+        a[class*="links"]{
+            background: azure;
+        }
+
+        /*    选中href中以http开头的元素*/
+        a[href^=http]{
+            background: cornsilk;
+        }
+
+    </style>
+</head>
+
+<body>
+
+
+<p class="demo">
+    <a href="https://www.baidu.com" class="links item first" id="first">1</a>
+    <a href="" class="links item second" target="_blank" title="test">2</a>
+    <a href="https://www.bilibili.com/" class="links item">3</a>
+    <a href="https://fanyi.baidu.com/" class="links item">4</a>
+    <a href="/aaa.jpg" class="links item">5</a>
+    <a href="abc" class="links item">6</a>
+    <a href="/a.pdf" class="links item">7</a>
+    <a href="aa.txt" class="links item">8</a>
+    <a href="ancc.d" class="links item last">9</a>
+</p>
+</body>
+</html>
